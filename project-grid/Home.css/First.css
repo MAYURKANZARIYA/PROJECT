@@ -1,0 +1,80 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    color: #fff;
+
+
+}
+
+
+.main
+{
+    background-color: black;
+    text-align: center;
+    line-height: 2;
+    padding: 50px 0;
+
+}
+
+
+.card
+{
+    display: grid;
+    padding: 50px;
+    gap: 30px;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+
+
+.foto{
+
+    height: 400px;
+}
+.card1 h2{
+    /* padding-top: 50px; */
+    margin-top: 50px;
+}
+
+
+.card1 img
+{
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.card1:hover img
+{   
+    margin: 0;
+}
+
+.btn{
+    width: 70%;
+    background-color: orange;
+    text-align: center;
+    display: grid;
+    margin-left: 50px;
+    grid-template-columns: 2fr 8fr;
+}
+
+.btn i{
+ padding: 5px;   
+ padding-left: 50px;
+ text-align: center;
+ border-right: 2px solid white;
+}
+
+a{
+    text-decoration: none;
+}
+.btn a p{
+    padding-top: 10px;
+}
+
+.btn:hover
+{
+    background-color: powderblue;
+}

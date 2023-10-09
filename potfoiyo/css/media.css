@@ -1,0 +1,45 @@
+@media (max-width:1000px)
+{
+    .card1
+    {
+        width: 45%;
+    }
+    .footer1,.footer2,.footer3
+    {
+        width: 100%;
+    }
+    .nevbar2 ul
+    {
+        display: none;
+    }
+    .menu
+    {
+        display: block;
+        background-color: rgb(26, 188, 156);
+        border-radius: 15px;
+    }
+
+    .about
+    {
+        padding: 0;
+    }
+
+    .about1
+    {
+        width: 100%;
+    }
+}
+@media (max-width:500px)
+{
+    
+    .card1
+    {
+        width: 100%;
+    }
+
+    .about
+    {
+        padding: 0;
+    }
+
+}

@@ -1,0 +1,95 @@
+@media(max-width:1100px)
+{
+   .card1
+   {
+      width: 20%;
+   }
+   
+}
+
+
+@media(max-width:900px)
+{
+   .africa1,
+   .card1 
+   {
+      width: 30%;
+   }
+   .nevbar1 i
+   {
+      display: block;
+   }
+   .nevbar2
+   {
+      display: none;
+   }
+   .row6 .border
+   {
+      width: 100%;
+      margin: 0;
+   }
+   .x1 input
+   {
+      width: 45%;
+   }
+ 
+   .foto .z,
+   .kyoto .card-img
+   {
+      width: 50%;
+   }
+
+   .icon .icon1,
+   .shop1
+   {
+      width: 32%;
+   }
+
+   .row6 .y,.row6 .x  
+   {
+      width: 100%;
+   }
+
+   .paris1
+   {
+      width: 47%;
+   }
+}
+
+
+
+@media( max-width:500px )
+{
+   .card1
+   {
+      width: 38%;
+   }
+
+   .search select,.search input
+   {
+      width: 48%;
+      padding: 20px;
+   }
+   
+
+   .search a,
+   .africa1
+   {
+      width: 48%;
+   }
+
+   .icon .icon1
+   {
+      width: 50%;
+   }
+   .paris1,
+   .shop1,
+   .kyoto .card-img,
+   .foto .z,
+   .paris2
+   {
+      width: 100%;
+   }
+  
+  
+}
